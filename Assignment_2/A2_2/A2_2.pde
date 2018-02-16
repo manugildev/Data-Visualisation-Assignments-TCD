@@ -48,6 +48,13 @@ void draw() {
   render_lines();
   render_text();
   draw_label_box();
+  
+  // Top Label
+  textAlign(CENTER);
+  textSize(30); 
+  fill(0, 220);
+  text("Charles Joseph MINARD’S Map OF Napoleon’s Russia Campaign", width/2, height/2 - 350);    
+  textSize(15); 
 }
 void render_lines() {
   // Render the lines for the size of the survivors
